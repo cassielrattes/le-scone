@@ -1,1 +1,103 @@
-A sintaxe do comando est� incorreta.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Le Scone</title>
+    <meta name="description" content="Le Scone - Restaurante" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container intro">
+      <div class="grid-5">
+        <img class="logo" src="img/lescone.png" alt="Le Scone" />
+        <div class="intro-info">
+          <p>
+            De Seg. à Sab. <span class="aberto"></span><br />
+            das 07:00h às 18:00h
+          </p>
+          <p>
+            Praia de Botafogo, 300
+            <br />
+            Rio de Janeiro - RJ
+          </p>
+        </div>
+        <p class="intro-telefone">+55 021 2412-3333</p>
+      </div>
+      <div class="grid-7">
+        <img class="intro-foto" src="img/foto.png" alt="Foto de Le Scone" />
+      </div>
+    </main>
+
+    <section class="container menu">
+      <h1 class="grid-4 titulo">Menu</h1>
+      <div class="grid-7 offset-1">
+        <div class="menu-item">
+          <img src="img/prato-1.png" alt="Foto prato 1" />
+          <h2>Entradas</h2>
+          <ul>
+            <li><span>R$1,70</span>Ovos Mexidos</li>
+            <li><span>R$2,70</span>Scones de Frutas</li>
+            <li><span>R$3,70</span>Joelho de Queijo</li>
+            <li><span>R$4,70</span>Presunto Cozido</li>
+            <li><span>R$3,70</span>Coxinha de Frango</li>
+          </ul>
+        </div>
+        <div class="menu-item">
+          <img src="img/prato-2.png" alt="Foto prato 2" />
+          <h2>Entradas</h2>
+          <ul>
+            <li><span>R$14,70</span>Penne com queijo</li>
+            <li><span>R$22,70</span>Feijoada</li>
+            <li><span>R$35,70</span>Costela ao Molho</li>
+            <li><span>R$54,70</span>Medalhão de frango</li>
+            <li><span>R$31,70</span>Coxinha de Frango</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contato">
+      <div class="grid-4 titulo">Contato</div>
+      <div class="grid-7 offset-1">
+        <form action="">
+          <label>Nome</label>
+          <input type="text" />
+          <div class="row">
+            <div class="grid-7">
+              <label>E-mail</label>
+              <input type="text" />
+            </div>
+            <div class="grid-5">
+              <label>Telefone</label>
+              <input type="text" />
+            </div>
+          </div>
+          <label>Mensagem</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="button" class="button" value="Enviar" />
+        </form>
+        <div class="contato-info">
+          <p>contato@lescone.com ////</p>
+          <p>+55 021 2412-3333 ////</p>
+        </div>
+        <a href="#" class="contato-mapa">
+          <img src="img/map.png" alt="Mapa Le Scone" />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="grid-9">Le Scone • 1986 - 2016. Alguns direitos reservados</p>
+        <a class="grid-3" href="https://www.origamid.com" target="_blank">
+          <img src="img/lescone-icone.png" alt="Le Scone Icone" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
